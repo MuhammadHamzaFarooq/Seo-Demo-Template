@@ -1,0 +1,481 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* ===========================Start  Read More BOX CSS ================================= */
+
+#more{
+    display: none;
+}
+
+/* ========================== End Read More BOX CSS ================================= */
+
+/* ================================ Start UtiLity Classes =============================== */
+.center{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.txt-white{
+    color: white;
+}
+
+.txt-blue{
+color: rgb(11, 11, 133);
+}
+
+.txt-lightgray{
+    color: rgb(170, 170, 170);
+}
+
+.bg-grary{
+background-color: rgb(248, 246, 246);
+}
+.bg-white{
+background-color: white;
+}
+.bg-blue{
+background-color: rgb(11, 11, 133) ;
+}
+
+
+
+
+/* ================================ End UtiLity Classes =============================== */
+
+
+/* Navigation */
+
+#txtlogo {
+    color: blue;
+}
+
+.bg-blue-dark {
+    background-color: rgb(11, 11, 133);
+}
+
+.dropdown-item:hover {
+    background-color: #183b70 !important;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 7px 18px;
+    font-size: 1.3rem;
+}
+
+
+/* Section 1  */
+
+#btn-services {
+    background-color: rgb(11, 11, 133);
+    color: white;
+    border-radius: 7px;
+    padding: 8px 15px;
+}
+
+#btn-portfolio {
+    /* background-color: white !important; */
+    color: rgb(11, 11, 133);
+    border-radius: 7px;
+    padding: 8px 15px;
+}
+
+.buttons {
+    /* border: 2px solid red; */
+    margin: 10px 15px;
+    padding: 5px 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content {
+    /* border: 2px solid blue; */
+    margin: 10px 15px;
+    padding: 5px 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content1 {
+    /* border: 2px solid blue; */
+    margin: 10px 15px;
+    padding: 5px 10px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#section-backgroun-img {
+    background: url("../img/seo-2394237_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: auto;
+    width: auto;
+    padding: 55px 10px;
+}
+
+
+/* Section 3  */
+
+
+/* =========================== Start section 3 ==================================*/
+
+.main-box {
+    /* border: 2px solid black; */
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.box-1 {
+    /* border: 2px solid red; */
+    margin: 5px;
+    flex: 2;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-2 {
+    /* border: 2px solid green; */
+    margin: 5px;
+    flex: 2.9;
+}
+
+
+
+.iconlogo{
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+    position: relative;
+    bottom: 15px !important;
+}
+
+.item-content{
+    /* border: 2px solid purple;  */
+    flex: 6;
+    width: auto;
+    height: auto; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 9px;
+     top: 0;
+}
+
+.item{
+   margin: 2px;
+    /* border: 2px solid yellow; */
+    justify-content: space-around;
+    align-items: center;
+    display: flex;  
+}
+img {
+    width: auto;
+    height: auto;
+}
+
+@media (min-width: 500px) and (max-width: 800px) {
+    .main-box {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    img {
+        width: 100%;
+        height: 205px;
+    }
+     .section-4 {
+        flex-direction: column;
+    }
+    .section-5{
+        flex-direction: column;
+    }
+    .contact-form{
+        flex-direction: column;
+    }
+    
+    
+}
+
+@media (min-width: 200px) and (max-width: 500px) {
+    .main-box {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    img {
+        width: 100%;
+        height: 205px;
+    }
+    .section-4 {
+        flex-direction: column;
+    }
+
+    .section-5{
+        flex-direction: column;
+    }
+    .contact-form{
+        flex-direction: column;
+       
+    }
+
+    .formbox {
+   
+    margin: 20px 0px;
+    padding: 20px 0px;
+    }
+
+
+    
+}
+
+@media (min-width: 800px) {
+    img {
+        width: 100%;
+        height: 340px;
+    }
+}
+
+@media (max-width: 800px) {
+.cont2{
+        position: relative;
+        left: 0.1em;
+    }
+
+   
+
+      
+}
+
+@media  (min-width: 800px) and (max-width: 1024px) {
+     img {
+        width: 100%;
+        height: 420px;
+    }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1254px) {
+    img {
+        width: 100%;
+        height: 420px;
+    }
+    .main-box {
+
+    width: 99%;
+    }
+}
+
+
+/* =========================== End section 3 ==================================*/
+
+
+/* =============================Start Section 4 =============================== */
+
+.section-4 {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+}
+
+.itembox{
+    /* border: 2px solid yellow; */
+    flex: 1;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 5px;
+    background-color: white;
+}
+#itembox-1:hover,#itembox-2:hover,#itembox-3:hover {
+    background-color: rgb(61, 255, 103);
+    color:black;
+    
+}
+
+#myBtn{
+background-color: blue;
+color:white;
+}
+
+
+
+/* ============================= End Section 4 =============================== */
+
+
+/* ==============================Start Section 5 ============================== */
+
+.our-service-pd{
+/* border: 2px solid black; */
+ padding: 5px;
+  background-color: rgb(3, 3, 77);
+
+}
+.our-service-pd a{
+  color: white;
+  text-decoration: none;
+}
+.our-service-pd a:hover{
+    color: #183b70;
+}
+.contentbox-2 {
+    /* border: 2px solid orange; */
+    flex: 3;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: violet;
+    margin: 1rem;
+}
+
+
+
+
+
+
+
+.section-5{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 35px 0px;
+}  
+.cont1{
+    /* border: 2px solid red; */
+    flex: 1.4;
+    margin: 1rem;
+    padding: 0.5rem;
+    justify-content: space-around;
+    align-items: center; 
+     background-color: rgb(38, 38, 119);
+}
+.cont2{
+    /* border: 2px solid green; */
+    flex: 3;
+    margin: 1rem;
+    padding: 0.5rem;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    right: 35px !important;
+}
+
+
+/* ============================== End Section 5 ================================ */
+
+/* ===============================Start Contact Form =========================== */
+.contact-form{
+  /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    flex-wrap: wrap;
+}
+.details{
+  /* border: 2px solid yellow; */
+    flex: 1;
+
+    justify-content: center;
+    align-items: center;
+    margin: 20px  10px ;
+    padding: 20px 10px;
+    line-height: 2rem;
+   
+}
+
+.formbox{
+  /* border: 2px solid yellow; */
+    flex: 1;
+   margin: 20px  10px ;
+    padding: 20px 10px;
+   
+    
+}
+
+.pd{
+    padding: 3px 20px;
+}
+/* ===============================End Contact Form =========================== */
+.footer-container{
+    /* border: 2px solid black; */
+     display: flex;
+    width: 100% !important;
+     justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    
+
+}
+
+
+.footerbox-1{
+      /* border: 2px solid blue; */
+      padding: 1rem;
+      justify-content: space-around;
+      align-items: center;
+      flex: 1.1;
+      height: 24rem;
+      margin: 1rem;
+}
+.footerbox{
+     /* border: 2px solid green; */
+     padding: 1rem; 
+     justify-content: space-around;
+     align-items: center;
+     flex: 1;
+     height: 24rem;
+     margin: 1rem;
+}
+.footerbox-3{
+     /* border: 2px solid pink; */
+     padding: 1rem;
+      justify-content: space-around;
+      align-items: center;
+      flex: 1;
+      height: 24rem;
+       margin: 1rem;
+}
+.footerbox-4{
+     /* border: 2px solid rebeccapurple; */
+      padding: 1rem;
+      justify-content: space-around;
+      align-items: center;
+      flex: 1.1;
+      height: 24rem;
+       margin: 1rem;
+}
+
+
+
+
+/* =============================Start Foooter ================================= */
+
+
+
+
+
+
+
+
+
+
+
+/* =============================End Foooter ================================= */
