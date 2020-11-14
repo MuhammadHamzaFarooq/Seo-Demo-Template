@@ -99,6 +99,20 @@ background-color: rgb(11, 11, 133) ;
     align-items: center;
 }
 
+.read-more{
+    background-color: white !important;
+   color: rgb(11, 11, 133) !important;
+    border-radius: 7px;
+    padding: 8px 15px;
+}
+.read-more:hover{
+    background-color: rgb(11, 11, 133) !important;
+   color:white !important;
+    border-radius: 7px;
+    padding: 8px 15px;
+    
+}
+
 .content {
     /* border: 2px solid blue; */
     margin: 10px 15px;
@@ -117,14 +131,18 @@ background-color: rgb(11, 11, 133) ;
 }
 
 #section-backgroun-img {
-    background: url("../img/seo-2394237_1280.jpg");
-    background-repeat: no-repeat;
+    background: url("../img/seo-2394237_1280.jpg") ;
+     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
-    height: auto;
-    width: auto;
-    padding: 55px 10px;
+ 
+    padding: 55px 10px; 
+    width: 100%;
+    height:30em;
+    /* border: 3px solid black ; */
+    
 }
+
 
 
 /* Section 3  */
@@ -137,6 +155,7 @@ background-color: rgb(11, 11, 133) ;
     display: flex;
     width: 100%;
     flex-wrap: wrap;
+    padding: 5px 3rem;
 }
 
 .box-1 {
@@ -190,7 +209,7 @@ img {
     height: auto;
 }
 
-@media (min-width: 500px) and (max-width: 800px) {
+@media only screen and  (min-width: 500px) and (max-width: 800px) {
     .main-box {
         flex-direction: column;
         flex-wrap: wrap;
@@ -209,10 +228,9 @@ img {
         flex-direction: column;
     }
     
-    
 }
 
-@media (min-width: 200px) and (max-width: 500px) {
+@media only screen and  (min-width: 200px) and (max-width: 500px) {
     .main-box {
         flex-direction: column;
         flex-wrap: wrap;
@@ -243,25 +261,23 @@ img {
     
 }
 
-@media (min-width: 800px) {
+@media only screen and (min-width: 800px) {
     img {
         width: 100%;
-        height: 340px;
+        height: 421px;
     }
 }
 
-@media (max-width: 800px) {
+@media only screen and  (max-width: 800px) {
 .cont2{
         position: relative;
         left: 0.1em;
     }
 
-   
-
       
 }
 
-@media  (min-width: 800px) and (max-width: 1024px) {
+@media only screen and  (min-width: 800px) and (max-width: 1024px) {
      img {
         width: 100%;
         height: 420px;
@@ -269,16 +285,41 @@ img {
 }
 
 
-@media (min-width: 1024px) and (max-width: 1254px) {
+
+@media only screen and  (min-width: 1024px) and (max-width: 1254px) {
     img {
         width: 100%;
         height: 420px;
     }
     .main-box {
-
-    width: 99%;
+        
+        width: 99%;
     }
+    
+    
+    
 }
+
+
+@media only screen and  (min-width: 320px) and (max-width: 586px){
+ 
+ .main-box{
+padding: 4px 1rem;
+
+ }
+}
+
+@media only screen and  (min-width: 280px) and (max-width: 653px){
+ .main-box{
+
+padding: 4px 0rem;
+}
+
+}
+
+
+
+
 
 
 /* =========================== End section 3 ==================================*/
@@ -290,7 +331,7 @@ img {
     /* border: 2px solid black; */
     display: flex;
     justify-content: space-between;
-
+    padding: 5px 3rem;
     flex-wrap: wrap;
 }
 
@@ -356,7 +397,8 @@ color:white;
 .section-5{
     display: flex;
     flex-wrap: wrap;
-    padding: 35px 0px;
+    /* padding: 35px 0px; */
+    padding: 5px 3rem;
 }  
 .cont1{
     /* border: 2px solid red; */
@@ -385,34 +427,36 @@ color:white;
 .contact-form{
   /* border: 2px solid black; */
     display: flex;
-    justify-content: space-between;
     background-color:white;
     flex-wrap: wrap;
+    padding: 38px;
+
+
+   
+
 }
 .details{
   /* border: 2px solid yellow; */
     flex: 1;
+ 
 
-    justify-content: center;
-    align-items: center;
-    margin: 20px  10px ;
-    padding: 20px 10px;
-    line-height: 2rem;
+    
+  
+ 
    
 }
 
 .formbox{
   /* border: 2px solid yellow; */
     flex: 1;
-   margin: 20px  10px ;
-    padding: 20px 10px;
-   
+
+     padding-top: 26px;
     
 }
-
+/* 
 .pd{
     padding: 3px 20px;
-}
+} */
 /* ===============================End Contact Form =========================== */
 .footer-container{
     /* border: 2px solid black; */
@@ -421,6 +465,7 @@ color:white;
      justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
+    padding: 5px 3rem;
     
 
 }
@@ -461,6 +506,11 @@ color:white;
       flex: 1.1;
       height: 24rem;
        margin: 1rem;
+}
+.footer-container a{
+    text-decoration: none;
+    color: white;
+
 }
 
 
