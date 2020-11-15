@@ -395,29 +395,24 @@ color:white;
 
 
 .section-5{
-    display: flex;
+   display: flex;
     flex-wrap: wrap;
-    /* padding: 35px 0px; */
-    padding: 5px 3rem;
+     padding: 25px 4rem;
 }  
 .cont1{
     /* border: 2px solid red; */
-    flex: 1.4;
-    margin: 1rem;
-    padding: 0.5rem;
+  
+     flex: 1.4;
     justify-content: space-around;
     align-items: center; 
-     background-color: rgb(38, 38, 119);
+    background-color: rgb(38, 38, 119);
 }
 .cont2{
     /* border: 2px solid green; */
     flex: 3;
-    margin: 1rem;
     padding: 0.5rem;
     justify-content: space-around;
     align-items: center;
-    position: relative;
-    right: 35px !important;
 }
 
 
