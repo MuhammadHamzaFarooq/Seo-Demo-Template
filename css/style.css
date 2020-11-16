@@ -1,526 +1,557 @@
-/* Reset CSS */
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-
-/* ===========================Start  Read More BOX CSS ================================= */
-
-#more{
-    display: none;
-}
-
-/* ========================== End Read More BOX CSS ================================= */
-
-/* ================================ Start UtiLity Classes =============================== */
-.center{
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-
-.txt-white{
-    color: white;
-}
-
-.txt-blue{
-color: rgb(11, 11, 133);
-}
-
-.txt-lightgray{
-    color: rgb(170, 170, 170);
-}
-
-.bg-grary{
-background-color: rgb(248, 246, 246);
-}
-.bg-white{
-background-color: white;
-}
-.bg-blue{
-background-color: rgb(11, 11, 133) ;
-}
-
-
-
-
-/* ================================ End UtiLity Classes =============================== */
-
-
-/* Navigation */
-
-#txtlogo {
-    color: blue;
-}
-
-.bg-blue-dark {
-    background-color: rgb(11, 11, 133);
-}
-
-.dropdown-item:hover {
-    background-color: #183b70 !important;
-}
-
-.navbar-brand {
-    color: white;
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.nav-item {
-    padding: 7px 18px;
-    font-size: 1.3rem;
-}
-
-
-/* Section 1  */
-
-#btn-services {
-    background-color: rgb(11, 11, 133);
-    color: white;
-    border-radius: 7px;
-    padding: 8px 15px;
-}
-
-#btn-portfolio {
-    /* background-color: white !important; */
-    color: rgb(11, 11, 133);
-    border-radius: 7px;
-    padding: 8px 15px;
-}
-
-.buttons {
-    /* border: 2px solid red; */
-    margin: 10px 15px;
-    padding: 5px 10px;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.read-more{
-    background-color: white !important;
-   color: rgb(11, 11, 133) !important;
-    border-radius: 7px;
-    padding: 8px 15px;
-}
-.read-more:hover{
-    background-color: rgb(11, 11, 133) !important;
-   color:white !important;
-    border-radius: 7px;
-    padding: 8px 15px;
-    
-}
-
-.content {
-    /* border: 2px solid blue; */
-    margin: 10px 15px;
-    padding: 5px 10px;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.content1 {
-    /* border: 2px solid blue; */
-    margin: 10px 15px;
-    padding: 5px 10px;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-}
-
-#section-backgroun-img {
-    background: url("../img/seo-2394237_1280.jpg") ;
-     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
- 
-    padding: 55px 10px; 
-    width: 100%;
-    height:30em;
-    /* border: 3px solid black ; */
-    
-}
-
-
-
-/* Section 3  */
-
-
-/* =========================== Start section 3 ==================================*/
-
-.main-box {
-    /* border: 2px solid black; */
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    padding: 5px 3rem;
-}
-
-.box-1 {
-    /* border: 2px solid red; */
-    margin: 5px;
-    flex: 2;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.box-2 {
-    /* border: 2px solid green; */
-    margin: 5px;
-    flex: 2.9;
-}
-
-
-
-.iconlogo{
-    width: 100%;
-    height: 100%;
-    flex: 1;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    /* border: 2px solid green; */
-    position: relative;
-    bottom: 15px !important;
-}
-
-.item-content{
-    /* border: 2px solid purple;  */
-    flex: 6;
-    width: auto;
-    height: auto; 
-    justify-content: space-around;
-    align-items: center;
-    padding: 5px 9px;
-     top: 0;
-}
-
-.item{
-   margin: 2px;
-    /* border: 2px solid yellow; */
-    justify-content: space-around;
-    align-items: center;
-    display: flex;  
-}
-img {
-    width: auto;
-    height: auto;
-}
-
-@media only screen and  (min-width: 500px) and (max-width: 800px) {
-    .main-box {
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    img {
-        width: 100%;
-        height: 205px;
-    }
-     .section-4 {
-        flex-direction: column;
-    }
-    .section-5{
-        flex-direction: column;
-    }
-    .contact-form{
-        flex-direction: column;
-    }
-    
-}
-
-@media only screen and  (min-width: 200px) and (max-width: 500px) {
-    .main-box {
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    img {
-        width: 100%;
-        height: 205px;
-    }
-    .section-4 {
-        flex-direction: column;
-    }
-
-    .section-5{
-        flex-direction: column;
-    }
-    .contact-form{
-        flex-direction: column;
-       
-    }
-
-    .formbox {
-   
-    margin: 20px 0px;
-    padding: 20px 0px;
-    }
-
-
-    
-}
-
-@media only screen and (min-width: 800px) {
-    img {
-        width: 100%;
-        height: 421px;
-    }
-}
-
-@media only screen and  (max-width: 800px) {
-.cont2{
-        position: relative;
-        left: 0.1em;
-    }
-
-      
-}
-
-@media only screen and  (min-width: 800px) and (max-width: 1024px) {
-     img {
-        width: 100%;
-        height: 420px;
-    }
-}
-
-
-
-@media only screen and  (min-width: 1024px) and (max-width: 1254px) {
-    img {
-        width: 100%;
-        height: 420px;
-    }
-    .main-box {
+    /* Reset CSS */
         
-        width: 99%;
-    }
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        /* ===========================Start  Read More BOX CSS ================================= */
+        
+        #more {
+            display: none;
+        }
+        /* ========================== End Read More BOX CSS ================================= */
+        /* ================================ Start UtiLity Classes =============================== */
+        
+        .center {
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+        
+        .txt-white {
+            color: white;
+        }
+        
+        .txt-blue {
+            color: rgb(11, 11, 133);
+        }
+        
+        .txt-lightgray {
+            color: rgb(170, 170, 170);
+        }
+        
+        .bg-grary {
+            background-color: rgb(248, 246, 246);
+        }
+        
+        .bg-white {
+            background-color: white;
+        }
+        
+        .bg-blue {
+            background-color: rgb(11, 11, 133);
+        }
+        /* ================================ End UtiLity Classes =============================== */
+        /* Navigation */
+        
+        #txtlogo {
+            color: blue;
+        }
+        
+        .bg-blue-dark {
+            background-color: rgb(11, 11, 133);
+        }
+        
+        .dropdown-item:hover {
+            background-color: #183b70 !important;
+        }
+        
+        .navbar-brand {
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        
+        .nav-item {
+            padding: 7px 18px;
+            font-size: 1.3rem;
+        }
+        /* Section 1  */
+        
+        #btn-services {
+            background-color: rgb(11, 11, 133);
+            color: white;
+            border-radius: 7px;
+            padding: 8px 15px;
+        }
+        
+        #btn-portfolio {
+            color: rgb(11, 11, 133);
+            border-radius: 7px;
+            padding: 8px 15px;
+        }
+        
+        .buttons {
+            margin: 10px 15px;
+            padding: 5px 10px;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .read-more {
+            background-color: white !important;
+            color: rgb(11, 11, 133) !important;
+            border-radius: 7px;
+            padding: 8px 15px;
+        }
+        
+        .read-more:hover {
+            background-color: rgb(11, 11, 133) !important;
+            color: white !important;
+            border-radius: 7px;
+            padding: 8px 15px;
+        }
+        
+        .content {
+            margin: 10px 15px;
+            padding: 5px 10px;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .content1 {
+            padding: 5px 4rem;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+        }
+        
+        #section-backgroun-img {
+            background: url("../img/seo-2394237_1280.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-position: center;
+            padding: 55px 10px;
+            width: 100%;
+            height: 30em;
+        }
+        /* Section 3  */
+        /* =========================== Start section 3 ==================================*/
+        
+        .main-box {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            padding: 5px 4rem;
+        }
+        
+        .box-1 {
+            margin: 5px;
+            flex: 2;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .box-2 {
+            margin: 5px;
+            flex: 2.9;
+        }
+        
+        .iconlogo {
+            width: 100%;
+            height: 100%;
+            flex: 1;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            bottom: 15px !important;
+        }
+        
+        .item-content {
+            flex: 6;
+            width: auto;
+            height: auto;
+            justify-content: space-around;
+            align-items: center;
+            padding: 5px 9px;
+            top: 0;
+        }
+        
+        .item {
+            margin: 2px;
+            justify-content: space-around;
+            align-items: center;
+            display: flex;
+        }
+        
+        img {
+            width: auto;
+            height: auto;
+        }
+        /* =========================== End section 3 ==================================*/
+        /* =============================Start Section 4 =============================== */
+        
+        .section-4 {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 3rem;
+            flex-wrap: wrap;
+        }
+        
+        .itembox {
+            flex: 1;
+            text-align: center;
+            justify-content: space-around;
+            align-items: center;
+            padding: 0.5rem;
+            margin: 1rem;
+            border-radius: 5px;
+            background-color: white;
+        }
+        
+        #itembox-1:hover,
+        #itembox-2:hover,
+        #itembox-3:hover {
+            background-color: rgb(61, 255, 103);
+            color: black;
+        }
+        
+        #myBtn {
+            background-color: blue;
+            color: white;
+        }
+        /* ============================= End Section 4 =============================== */
+        /* ==============================Start Section 5 ============================== */
+        
+        .our-service-pd {
+            padding: 1rem 1rem;
+            font-size: 1.5rem;   
+            background-color: rgb(3, 3, 77);
+            margin-bottom: 2.5rem;
+        }
+        
+        .our-service-pd a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .our-service-pd a:hover {
+            color: #a0c6ff;
+        }
+        
+        .contentbox-2 {
+            flex: 3;
+            text-align: center;
+            justify-content: space-around;
+            align-items: center;
+            padding: 0.5rem;
+            background-color: violet;
+            margin: 1rem;
+        }
+        
+        .section-5 {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 25px 4rem;
+        }
+        
+        .cont1 {
+            flex: 1.4;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(38, 38, 119);
+        }
+        
+        .cont2 {
+            flex: 3;
+            padding: 0.5rem;
+            justify-content: space-around;
+            align-items: center;
+        }
+        /* ============================== End Section 5 ================================ */
+        /* ===============================Start Contact Form =========================== */
+        
+        .contact-form {
+            display: flex;
+            padding: 5px 4rem;
+            flex-wrap: wrap;
+        }
+        
+        .details {
+            flex: 1;
+        }
+        
+        .formbox {
+            flex: 1;
+            text-align: right;
+        }
+        
+        #sp-bt {
+            text-align: center;
+        }
+        
+        .pd {
+            padding: 5px 55px;
+        }
+        /* ===============================End Contact Form =========================== */
+        /* =============================Start Foooter ================================= */
+        
+        .footer-container {
+            display: flex;
+            width: 100% !important;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 25px 4rem;
+        }
+        
+        .footerbox-1 {
+            justify-content: space-around;
+            align-items: center;
+            flex: 1.1;
+            height: 24rem;
+        }
+        
+        .footerbox {
+            justify-content: space-around;
+            align-items: center;
+            flex: 1;
+            height: 24rem;
+        }
+        
+        .footerbox-3 {
+            justify-content: space-around;
+            align-items: center;
+            flex: 1;
+            height: 24rem;
+        }
+        
+        .footerbox-4 {
+            justify-content: space-around;
+            align-items: center;
+            flex: 1.1;
+            height: 24rem;
+            
+        }
+        
+        .footer-container a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        #btn-Message {
+            padding: 10px 4px;
+            border-radius: 5px;
+        }
+        /* =============================End Foooter ================================= */
+        /* ======================================= Media Query ============================================ */
+        
+        @media only screen and (min-width: 500px) and (max-width: 800px) {
+            .main-box {
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+            img {
+                width: 100%;
+                height: 205px;
+            }
+            .section-4 {
+                flex-direction: column;
+            }
+            .section-5 {
+                flex-direction: column;
+            }
+            .contact-form {
+                flex-direction: column;
+            }
+        }
+        
+        @media only screen and (min-width: 200px) and (max-width: 500px) {
+            .main-box {
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+            img {
+                width: 100%;
+                height: 205px;
+            }
+            .section-4 {
+                flex-direction: column;
+            }
+            .section-5 {
+                flex-direction: column;
+            }
+            .contact-form {
+                flex-direction: column;
+            }
+            .formbox {
+                margin: 20px 0px;
+                padding: 20px 0px;
+            }
+        }
+        
+        @media only screen and (min-width: 800px) {
+            img {
+                width: 100%;
+                height: 421px;
+            }
+        }
+
+        
+        @media only screen and (min-width: 800px) and (max-width: 1024px) {
+            img {
+                width: 100%;
+                height: 400px;
+            }
+        }
+        
+        @media only screen and (min-width: 1024px) and (max-width: 1254px) {
+            img {
+                width: 100%;
+                height: 380px;
+            }
+            .main-box {
+                width: 100%;
+            }
+            .contact-form,
+            .content1,
+            .main-box {
+                padding: 20px 4rem !important;
+            }
+        }
+        
+        @media only screen and (min-width: 320px) and (max-width: 586px) {
+            .main-box {
+                padding: 4px 1rem;
+            }
+        }
+        
+        @media only screen and (min-width: 280px) and (max-width: 653px) {
+            .main-box {
+                padding: 4px 0rem;
+            }
+        }
+        
+        @media only screen and (min-width: 800px) and (max-width: 1050px) {
+            .main-box,
+            .section-4,
+            .section-5,
+            .contact-form,
+            .content1 {
+                padding: 15px 2.5rem !important;
+                /* background-color: pink !important; */
+            }
+            .footer-container {
+                padding: 15px 2.5rem !important;
+                /* background-color: pink !important; */
+            }
+        }
+        
+        @media only screen and (min-width: 500px) and (max-width: 800px) {
+            .main-box,
+            .section-4,
+            .section-5,
+            .contact-form,
+            .footer-container,
+            .content1 {
+                padding: 18px 1.5rem !important;
+                /* background-color: yellow; */
+            }
+            .footer-container {
+                padding: 15px 1.5rem !important;
+                /* background-color: yellow; */
+            }
+            .footerbox-1,
+            .footerbox,
+            .footerbox-3,
+            .footerbox-4 {
+                padding: 1rem;
+            }
+            #special-form,
+            #sp-bt {
+                text-align: left !important;
+            }
+            .our-service-pd {
+                border: 2px solid green;
+                padding: 1.5rem 2rem;
+                font-size: 2rem;
+               margin-bottom: 2.5rem;
+                /* background-color: pink !important; */
+            }
+        }
+        
+        @media only screen and (min-width: 280px) and (max-width: 499px) {
+            .main-box,
+            .section-4,
+            .section-5,
+            .contact-form,
+            .content1 {
+                padding: 15px 1rem !important;
+                /* background-color: red; */
+            }
+            .main-box {
+                padding: 5px 0rem !important;
+            }
+            .footer-container {
+                padding: 10px 1rem !important;
+                /* background-color: red; */
+            }
+            .footerbox-1,
+            .footerbox,
+            .footerbox-3,
+            .footerbox-4 {
+                padding: 1rem;
+            }
+            #special-form,
+            #sp-bt {
+                text-align: left !important;
+            }
+            .pd {
+                padding: 1px 0px !important;
+            }
+            .our-service-pd {
+               
+                /* border: 2px solid green; */
+                padding: 0.5rem 1rem;
+                font-size: 1rem;
+                margin-bottom: 2.5rem;
+                /* background-color: red !important; */
+            }
+        }
+        
+        @media only screen and (min-width: 1024px) and (max-width: 1024px) {
+            .pd {
+                padding: 5px 40px !important;
+            }
+
+             .cont1 {
+              flex: 1.6; 
+             }
+        }
+        
+        @media only screen and (min-width: 1360px) {
+            img {
+                width: 100%;
+                height: 360px;
+            }
+            .pd {
+                padding: 5px 73px !important;
+            }
+            .contact-form,
+            .content1,
+            .main-box {
+                padding: 25px 4rem !important;
+            }           
+        
+        }
+         @media only screen and (min-width: 801px)  and (max-width:1152px){
+         
+          .our-service-pd {               
+                border: 2px solid green;
+                padding: 0.3rem;
+                margin-bottom: 2.5rem;
+                font-size: 1.4rem;
+                /* background-color: red !important; */
+            } 
+
+            
+             .cont1 {
+              flex: 2 !important; 
+             }
+        
+        }
     
     
-    
-}
-
-
-@media only screen and  (min-width: 320px) and (max-width: 586px){
- 
- .main-box{
-padding: 4px 1rem;
-
- }
-}
-
-@media only screen and  (min-width: 280px) and (max-width: 653px){
- .main-box{
-
-padding: 4px 0rem;
-}
-
-}
-
-
-
-
-
-
-/* =========================== End section 3 ==================================*/
-
-
-/* =============================Start Section 4 =============================== */
-
-.section-4 {
-    /* border: 2px solid black; */
-    display: flex;
-    justify-content: space-between;
-    padding: 5px 3rem;
-    flex-wrap: wrap;
-}
-
-.itembox{
-    /* border: 2px solid yellow; */
-    flex: 1;
-    text-align: center;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0.5rem;
-    margin: 1rem;
-    border-radius: 5px;
-    background-color: white;
-}
-#itembox-1:hover,#itembox-2:hover,#itembox-3:hover {
-    background-color: rgb(61, 255, 103);
-    color:black;
-    
-}
-
-#myBtn{
-background-color: blue;
-color:white;
-}
-
-
-
-/* ============================= End Section 4 =============================== */
-
-
-/* ==============================Start Section 5 ============================== */
-
-.our-service-pd{
-/* border: 2px solid black; */
- padding: 5px;
-  background-color: rgb(3, 3, 77);
-
-}
-.our-service-pd a{
-  color: white;
-  text-decoration: none;
-}
-.our-service-pd a:hover{
-    color: #183b70;
-}
-.contentbox-2 {
-    /* border: 2px solid orange; */
-    flex: 3;
-    text-align: center;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0.5rem;
-    background-color: violet;
-    margin: 1rem;
-}
-
-
-
-
-
-
-
-.section-5{
-   display: flex;
-    flex-wrap: wrap;
-     padding: 25px 4rem;
-}  
-.cont1{
-    /* border: 2px solid red; */
-  
-     flex: 1.4;
-    justify-content: space-around;
-    align-items: center; 
-    background-color: rgb(38, 38, 119);
-}
-.cont2{
-    /* border: 2px solid green; */
-    flex: 3;
-    padding: 0.5rem;
-    justify-content: space-around;
-    align-items: center;
-}
-
-
-/* ============================== End Section 5 ================================ */
-
-/* ===============================Start Contact Form =========================== */
-.contact-form{
-  /* border: 2px solid black; */
-    display: flex;
-    background-color:white;
-    flex-wrap: wrap;
-    padding: 38px;
-
-
-   
-
-}
-.details{
-  /* border: 2px solid yellow; */
-    flex: 1;
- 
-
-    
-  
- 
-   
-}
-
-.formbox{
-  /* border: 2px solid yellow; */
-    flex: 1;
-
-     padding-top: 26px;
-    
-}
-/* 
-.pd{
-    padding: 3px 20px;
-} */
-/* ===============================End Contact Form =========================== */
-.footer-container{
-    /* border: 2px solid black; */
-     display: flex;
-    width: 100% !important;
-     justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 5px 3rem;
-    
-
-}
-
-
-.footerbox-1{
-      /* border: 2px solid blue; */
-      padding: 1rem;
-      justify-content: space-around;
-      align-items: center;
-      flex: 1.1;
-      height: 24rem;
-      margin: 1rem;
-}
-.footerbox{
-     /* border: 2px solid green; */
-     padding: 1rem; 
-     justify-content: space-around;
-     align-items: center;
-     flex: 1;
-     height: 24rem;
-     margin: 1rem;
-}
-.footerbox-3{
-     /* border: 2px solid pink; */
-     padding: 1rem;
-      justify-content: space-around;
-      align-items: center;
-      flex: 1;
-      height: 24rem;
-       margin: 1rem;
-}
-.footerbox-4{
-     /* border: 2px solid rebeccapurple; */
-      padding: 1rem;
-      justify-content: space-around;
-      align-items: center;
-      flex: 1.1;
-      height: 24rem;
-       margin: 1rem;
-}
-.footer-container a{
-    text-decoration: none;
-    color: white;
-
-}
-
-
-
-
-/* =============================Start Foooter ================================= */
-
-
-
-
-
-
-
-
-
-
-
-/* =============================End Foooter ================================= */
+    /* =========================================== End Media Query ==================================*/

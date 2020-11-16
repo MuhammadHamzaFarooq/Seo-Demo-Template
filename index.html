@@ -23,11 +23,10 @@
     <title>Seo Template</title>
 
     <script>
-
-        function myFunction() {
-            var dots = document.getElementById("dots");
-            var moreText = document.getElementById("more");
-            var btnText = document.getElementById("myBtn");
+        function myFunction1() {
+            var dots = document.getElementById("dots1");
+            var moreText = document.getElementById("more1");
+            var btnText = document.getElementById("myBtn1");
 
             if (dots.style.display === "none") {
                 dots.style.display = "inline";
@@ -39,6 +38,36 @@
                 moreText.style.display = "inline";
             }
         }
+        function myFunction2() {
+            var dots = document.getElementById("dots2");
+            var moreText = document.getElementById("more2");
+            var btnText = document.getElementById("myBtn2");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read More ->";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read Less ->";
+                moreText.style.display = "inline";
+            }
+        }
+        function myFunction3() {
+            var dots = document.getElementById("dots3");
+            var moreText = document.getElementById("more3");
+            var btnText = document.getElementById("myBtn3");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read More ->";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read Less ->";
+                moreText.style.display = "inline";
+            }
+        } 
     </script>
 
 
@@ -123,8 +152,7 @@
         <div class="content1">
             <h2 class="txt-blue">Digital Markiting Agency</h2>
 
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptatibus natus asperiores.
-                Lorem,
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptatibus natus asperiores. Lorem,
                 ipsum dolor sit amet consectetur adipisicing elit.
             </p>
         </div>
@@ -147,8 +175,7 @@
                     <div class="item-content content" id="item-1">
                         <h4 class="txt-blue">Website Speed Improvments.</h4>
                         <p class="txt-lightgray">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae,
-                            aliquam
-                            nobis. Ut.</p>
+                            aliquam nobis. Ut.</p>
                     </div>
 
                 </div>
@@ -160,8 +187,7 @@
                     <div class="item-content content" id="item-1">
                         <h4 class="txt-blue">Mobile friendly web building.</h4>
                         <p class="txt-lightgray">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae,
-                            aliquam
-                            nobis. Ut.</p>
+                            aliquam nobis. Ut.</p>
                     </div>
                 </div>
 
@@ -172,8 +198,7 @@
                     <div class="item-content content" id="item-1">
                         <h4 class="txt-blue">Links Building and guest posts</h4>
                         <p class="txt-lightgray">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae,
-                            aliquam
-                            nobis. Ut.</p>
+                            aliquam nobis. Ut.</p>
                     </div>
                 </div>
             </div>
@@ -196,17 +221,14 @@
             <div class="itembox " id="itembox-1">
                 <span><i class="fa fa-area-chart" aria-hidden="true"></i></span>
                 <h2 class="txt-blue">Content Strategy</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum
-                    interdum, nisi lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis iusto
-                    commodi atque.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam architecto officiis magni
-                    dolore sint magnam facilis.
-                    <span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor.
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet Atque ipsam architecto
+                    officiis magni dolore sint magnam facilis. Lorem, ipsum dolor.
+                    <span id="dots1">...</span><span id="more1">erisque enim ligula venenatis dolor.
                         Maecenas nisl est,
-                        nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed
+                        Lorem ipsum dolor sit amet consectetur.
                     </span></p>
 
-                <button onclick="myFunction()" class="btn read-more" id="myBtn">Read More-> </button>
+                <button onclick="myFunction1()" class="btn read-more" id="myBtn1">Read More-> </button>
 
             </div>
 
@@ -214,17 +236,14 @@
                 <span><i class="fa fa-info" aria-hidden="true"></i></span>
 
                 <h2 class="txt-blue">Keyword Research</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum
-                    interdum, nisi lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis iusto
-                    commodi atque.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam architecto officiis magni
-                    dolore sint magnam facilis.
-                    <span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor.
-                        Maecenas nisl est,
-                        nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed
+                <p> amet consectetur adipisicing elit. Nobis iusto commodi
+                    atque. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Atque ipsam architecto officiis magni dolore sint magnam facilis.
+                    <span id="dots2">...</span><span id="more2">erisque enim ligula venenatis dolor.
+                        In at libero sed nunc venenatis imperdiet sed
                     </span></p>
 
-                <button onclick="myFunction()" class="btn read-more" id="myBtn">Read More-> </button>
+                <button onclick="myFunction2()" class="btn read-more" id="myBtn2">Read More-> </button>
 
             </div>
 
@@ -232,15 +251,12 @@
                 <span><i class="fa fa-user-o" aria-hidden="true"></i></span>
                 <h2 class="txt-blue">From Our Blog</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum
-                    interdum, nisi lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis iusto
-                    commodi atque.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam architecto officiis magni
-                    dolore sint magnam facilis.
-                    <span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor.
+                    adipisicing elit. Atque ipsam architecto officiis magni dolore sint magnam facilis.
+                    <span id="dots3">...</span><span id="more3">erisque enim ligula venenatis dolor.
                         Maecenas nisl est,
-                        nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed
+                        In at libero sed nunc venenatis imperdiet sed
                     </span></p>
-                <button onclick="myFunction()" class="btn read-more" id="myBtn">Read More-> </button>
+                <button onclick="myFunction3()" class="btn read-more" id="myBtn3">Read More-> </button>
 
 
             </div>
@@ -256,60 +272,174 @@
                 <div>
                     <h1 class="center txt-white">Our Sevices</h1>
                 </div>
+                <div class="our-service-pd ">
 
-                <div class="center our-service-pd "><a href="" target="_blank"><span>></span> Digital Markiting</a>
-                </div>
-                <div class="center our-service-pd"><a href="" target="_blank"><span>></span> Web Development</a>
-                </div>
-                <div class="center our-service-pd"><a href="" target="_blank"> <span> ></span> Social Media
-                        Markiting</a>
-                </div>
-                <div class="center our-service-pd "><a href="" target="_blank"><span>></span> Digital Markiting</a>
-                </div>
-                <div class="center our-service-pd"><a href="" target="_blank"><span>></span> Web Development</a>
-                </div>
-                <div class="center our-service-pd"><a href="" target="_blank"> <span> ></span> Social Media
-                        Markiting</a>
-                </div>
-                <div class="center our-service-pd "><a href="" target="_blank"><span>></span> Digital Markiting</a>
-                </div>
-                <div class="center our-service-pd"><a href="" target="_blank"><span>></span> Web Development</a>
-                </div>
-                <div class="center our-service-pd"><a href="" target="_blank"> <span> ></span> Social Media
-                        Markiting</a>
+
+
+                    <table class="text-white">
+                        <tr>
+                            <td>
+                                <span> <a href="">></a> </span> &nbsp;
+                            </td>
+                            <td>
+                                <a href="" target="_blank"> Digital Markiting</a></td>
+                        </tr>
+                        <tr></tr>
+                        <tr>
+                            <td>
+                                <span> <a href="">></a> </span> &nbsp;
+                            </td>
+                            <td>
+                                <a href="" target="_blank"> Web Development</a>
+                            </td>
+                        </tr>
+                        <td></td>
+                        <tr>
+                            <td>
+                                <span> <a href="">></a> </span> &nbsp;
+                            </td>
+                            <td>
+                                <a href="" target="_blank"> Social Media Markiting</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span> <a href="">></a> </span> &nbsp;
+                            </td>
+                            <td>
+                                <a href="" target="_blank"> Digital Markiting</a></td>
+                        </tr>
+                        <tr></tr>
+                        <tr>
+                            <td>
+                                <span> <a href="">></a> </span> &nbsp;
+                            </td>
+                            <td>
+                                <a href="" target="_blank"> Web Development</a>
+                            </td>
+                        </tr>
+                        <td></td>
+                        <tr>
+                            <td>
+                                <span> <a href="">></a> </span> &nbsp;
+                            </td>
+                            <td>
+                                <a href="" target="_blank"> Social Media Markiting</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span> <a href="">></a> </span> &nbsp;
+                            </td>
+                            <td>
+                                <a href="" target="_blank"> Digital Markiting</a></td>
+                        </tr>
+                        <tr></tr>
+                        <tr>
+                            <td>
+                                <span> <a href="">></a> </span> &nbsp;
+                            </td>
+                            <td>
+                                <a href="" target="_blank"> Web Development</a>
+                            </td>
+                        </tr>
+                        <td></td>
+                        <tr>
+                            <td>
+                                <span> <a href="">></a> </span> &nbsp;
+                            </td>
+                            <td>
+                                <a href="" target="_blank"> Social Media Markiting</a></td>
+                        </tr>
+
+                    </table>
                 </div>
 
-                <br>
-                <br>
-                <br>
 
             </div>
+
+
             <div class="cont2 bg-white">
                 <br>
                 <br>
                 <h2 class="txt-blue">Heading Two Goes Here</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam corporis modi debitis architecto? A
-                    ad
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam corporis modi debitis architecto? A ad
                     suscipit ipsum laborum accusantium quod dolor, deserunt quidem non vitae corporis velit, nisi
-                    voluptatum? Molestiae magnam officia beatae nesciunt.</p>
+                    voluptatum? Molestiae magnam officia beatae
+                    nesciunt.
+                </p>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quod, aspernatur architecto,
-                    tempora
-                    dolore amet nemo vel, sapiente harum quidem ratione iusto! Voluptate iusto exercitationem eius,
-                    quis
-                    culpa, facere suscipit ab odio fugit illum in quasi pariatur libero consectetur sapiente.</p>
+                    tempora dolore amet nemo vel, sapiente harum quidem ratione iusto! Voluptate iusto exercitationem
+                    eius, quis culpa, facere suscipit ab odio
+                    fugit illum in quasi pariatur libero consectetur sapiente.</p>
 
                 <h2 class="txt-blue">Heading Two Goes Here</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quod, aspernatur architecto,
-                    tempora
-                    dolore amet nemo vel, sapiente harum quidem ratione iusto! Voluptate iusto exercitationem eius,
-                    quis
-                    culpa, facere suscipit ab odio fugit illum in quasi pariatur libero consectetur sapiente.</p>
+                    tempora dolore amet nemo vel, sapiente harum quidem ratione iusto! Voluptate iusto exercitationem
+                    eius, quis culpa, facere suscipit ab odio
+                    fugit illum in quasi pariatur libero consectetur sapiente.</p>
             </div>
 
         </div>
 
 
+
+        <!-- <div style="border: 2px solid black; display: flex;     padding: 5px 3rem;">
+            <div class="1" style="border: 2px solid green  ; flex: 1.4 ;">
+                <div>
+                    <h1 class="center ">Our Sevices</h1>
+                </div>
+                <div class="center our-service-pd "><a href="" target="_blank"><span>></span> Digital Markiting</a>
+            </div>
+            <div class="center our-service-pd"><a href="" target="_blank"><span>></span> Web Development</a>
+            </div>
+            <div class="center our-service-pd">
+                <a href="" target="_blank"> <span> ></span> Social Media Markiting
+                </a>
+            </div>
+            <div class="center our-service-pd "><a href="" target="_blank"><span>></span> Digital Markiting</a>
+            </div>
+            <div class="center our-service-pd"><a href="" target="_blank"><span>></span> Web Development</a>
+            </div>
+            <div class="center our-service-pd">
+                <a href="" target="_blank"> <span> ></span> Social Media Markiting
+                </a>
+            </div>
+            <div class="center our-service-pd "><a href="" target="_blank"><span>></span> Digital Markiting</a>
+            </div>
+            <div class="center our-service-pd"><a href="" target="_blank"><span>></span> Web Development</a>
+            </div>
+            <div class="center our-service-pd">
+                <a href="" target="_blank"> <span> ></span> Social Media Markiting
+                </a>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+        </div>
+
+        <div class="2" style="border: 2px solid yellow ; flex: 3;  padding: 0.5rem;
+    justify-content: space-around;
+    align-items: center;">
+            <div>
+                <h1 class="center ">Our Sevices</h1>
+            </div>
+            <br>
+            <br>
+            <h2 class="txt-blue">Heading Two Goes Here</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam corporis modi debitis architecto? A ad suscipit ipsum laborum accusantium quod dolor, deserunt quidem non vitae corporis velit, nisi voluptatum? Molestiae magnam officia beatae
+                nesciunt.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quod, aspernatur architecto, tempora dolore amet nemo vel, sapiente harum quidem ratione iusto! Voluptate iusto exercitationem eius, quis culpa, facere suscipit ab odio fugit
+                illum in quasi pariatur libero consectetur sapiente.</p>
+
+            <h2 class="txt-blue">Heading Two Goes Here</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quod, aspernatur architecto, tempora dolore amet nemo vel, sapiente harum quidem ratione iusto! Voluptate iusto exercitationem eius, quis culpa, facere suscipit ab odio fugit
+                illum in quasi pariatur libero consectetur sapiente.</p>
+        </div>
+    </div> -->
+    </div>
 
     </div>
 
@@ -321,7 +451,7 @@
     <!-- ============================= Start Contact Form ========================================== -->
     <div class="contact-form">
         <div class="details">
-            <h1 class="txt-blue">Contact Details</h1>
+            <h3 class="txt-blue">Contact Details</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error repellat ipsam harum!</p>
 
 
@@ -343,7 +473,7 @@
 
         </div>
 
-        <form action="#" class="formbox">
+        <form action="#" class="formbox" id="special-form">
             <input type="text" placeholder="Your Name*" class="pd">
             <br>
             <br>
@@ -356,9 +486,13 @@
             <input type="url" placeholder="Website URL*" class="pd">
             <br>
             <br>
-            <textarea name="" id="" cols="27" rows="4" placeholder="Type Your Text Message here*"></textarea><br>
+            <textarea name="" class="pd" id="" cols="26" rows="4"
+                placeholder="Type Your Text Message here*"></textarea><br>
             <br>
-            <button class="btn bg-blue-dark txt-white" id="btn-Message">Send Message</button>
+            <div id="sp-bt">
+
+                <button class=" bg-blue txt-white" id="btn-Message">Send Message</button>
+            </div>
 
 
 
@@ -366,6 +500,51 @@
 
         </form>
     </div>
+
+
+    <!-- <div style="border: 2px solid black; display: flex; margin: 5px 4rem; flex-wrap: wrap;">
+        <div class="1" style="border: 2px solid red !important; flex: 1; ">
+            <h1 class="txt-blue">Contact Details</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error repellat ipsam harum!</p>
+
+
+
+
+
+            <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+            <h3 class="txt-blue" style="display: inline-block;">Company Address</h3><br>
+            <p>Seo Agency , 343 marketing , #2214 cravel street , Ny -62617.</p>
+
+            <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+            <h3 class="txt-blue" style="display: inline-block;">Call Us</h3><br>
+            <p>+1(21)234 567.</p>
+            <span><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+            <h3 class="txt-blue" style="display: inline-block;">Email Us</h3><br>
+            <p>example@mail.com</p>
+            <span><i class="fa fa-life-ring" aria-hidden="true"></i></span>
+            <h3 class="txt-blue" style="display: inline-block;">Customer Support</h3>
+        </div>
+
+        <div class="2" style="border: 2px solid green !important; flex: 1; text-align:right; margin: 1rem;">
+            <input type="text" placeholder="Your Name*" class="pd" style="padding: 5px 56px;">
+            <br>
+            <br>
+            <input type="email" placeholder="Your Email*" class="pd" style="padding: 5px 56px;">
+            <br>
+            <br>
+            <input type="number" placeholder="Your Phone*" class="pd" style="padding: 5px 56px;">
+            <br>
+            <br>
+            <input type="url" placeholder="Website URL*" class="pd" style="padding: 5px 56px;">
+            <br>
+            <br>
+            <textarea name="" id="" cols="27" rows="4" placeholder="Type Your Text Message here*"
+                style="padding: 5px 55px;"></textarea><br>
+            <br>
+            <div style="text-align: center; padding: 2px 19px;"><button>Send Message</button>
+            </div>
+        </div>
+    </div> -->
 
     <!-- =============================  Contact Form ========================================== -->
     <!-- ==============================Strat Footer ============================================ -->
